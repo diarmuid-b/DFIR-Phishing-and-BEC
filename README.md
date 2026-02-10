@@ -293,21 +293,18 @@ Clean executive summaries
 
 **Final Findings Summary**
 
-Finding	Result
+Finding | Result
 
-Compromise Type	Business Email Compromise (BEC)
+Compromise Type	| Business Email Compromise (BEC)
 
-Initial Access	External login to M365
+Initial Access | External login to M365
 
-Attacker Technique	Inbox rule creation
+Attacker Technique | Inbox rule creation
 
-Persistence	Folder creation & email deletion
+Persistence | Folder creation & email deletion
 
-Infrastructure Used	Microsoft 365 (LOTL)
+Infrastructure Used | Microsoft 365 (LOTL)
 
-Attacker IPs	
-
-Folder Created	
 
 **Key Lessons**
 
