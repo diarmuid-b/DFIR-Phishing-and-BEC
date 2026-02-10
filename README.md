@@ -26,6 +26,7 @@ The malicious inbox rule behaviour
 Indicators of attacker tradecraft (Living Off the Land, log evasion, etc.)
 
 **Investigation Process**
+
 **Initial Log Triage**
 
 The primary artefact was:
@@ -35,27 +36,24 @@ azure-export-audit-dfir.csv
 
 This contained:
 
-Operation
-
-CreationDate
-
-UserId
-
+Operation,
+CreationDate,
+UserId,
 AuditData (JSON blob)
 
 The AuditData field required parsing to extract:
 
-ClientIP
-
-FolderPath
-
-Rule parameters
-
+ClientIP,
+FolderPath,
+Rule parameters,
 Login activity
 
 **PowerShell Challenges & Lessons Learned**
+
 **Common Issues Encountered**
+
 **1. Wildcard path errors**
+
 Import-Csv .\*.csv
 
 
